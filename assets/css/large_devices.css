@@ -1,0 +1,85 @@
+/* desktop to up */
+@media only screen and (min-width : 768px) {
+
+    /* appcontainer */
+
+.Appcontainer{
+    /* border: 2px dashed black; */
+   
+}
+
+
+
+/* product image container */
+div.productImage{
+    /* border: 2px dashed black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding:5%;
+
+}
+
+.image{
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.image>img{
+    width: 80%;
+}
+
+.prevImage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 0px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+
+    
+}
+.prevImage img{
+    width: 50%;
+}
+
+.prevImage>div{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 204, 255);
+    
+}
+
+/* details section */
+div.details{
+    /* border: 2px dashed black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width : 992px) {
+    
+}
+@media only screen and (min-width : 1200px) {
+
+}

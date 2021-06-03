@@ -4,63 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 
-
-    <div class="container">
-        <div class="row">
-
-            
-
-            <div class="productImage">
-                <img src="products/ux.png" alt="" id="productImage">
-            
-                <button onclick = "next()">Next</button>
+    <div class="productcontainer">
+        <!-- product show image container -->
+        <div class="row productImage">
+            <div class="image">
+                <img src="./assets/products/ux.png" alt="" id="productImage">
             </div>
-
-            <!-- <div class="prevImage">
-
-                
-                
-            </div> -->
-              
-
+            <div class="prevImage">
+                <div><img src="./assets/products/image3.jpg" alt=""></div>
+                <div><img src="./assets/products/image2.jpg" alt=""></div>
+                <!-- <div><img src="./products/image6.png" alt=""></div> -->
+                <div><img src="./assets/products/image2.jpg" alt=""></div>
+            </div>
         </div>
+        
 
-        <div class="row">
-
-            <div class="top-side">
+        <!-- description card -->
+        <div class="row details">
+            
+            <!-- prodcuct name -->
+            <div class="productName">
                 <h1>Product : <span>Watch i534</span></h1>
             </div>
 
-            <div class="middle">
+            <div class="productDetails">
 
+                <!-- description -->
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium debitis dolore ipsam, necessitatibus sed deleniti, accusantium, hic pariatur illum culpa nam in vel quia magnam velit dicta voluptate similique officiis.
                 </p>
 
-                <div class="stars">
-                    
-
+                <!-- stars -->
+                <div class="productRate">
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
                 </div>
 
             </div>
 
-            <div class="bottom-side">
+            <div class="productMarket">
 
-                <div class="price">
-                    $
-                    <span>259.99</span>
+                <!-- price -->
+                <div class="productPrice">
+                    $<span>259.99</span>
                 </div>
 
-                <div class="buyProduct">
-                    <button>Add to Cart</button>
+                <!-- buy and save button -->
+                <div class="productBuy">
+                    <button>Comprar
+                        <i class="fa fas fa-shopping-cart"></i>
+                    </button>
+                    
+                    <!-- <button>Save
+                        <i class="fa fas fa-save"></i>
+                    </button> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="productcontainer">
+        <!-- product show image container -->
+        <div class="row productImage">
+            <div class="image">
+                <img src="./assets/products/ux.png" alt="" id="productImage">
+            </div>
+            <div class="prevImage">
+                <div><img src="./assets/products/image3.jpg" alt=""></div>
+                <div><img src="./assets/products/image2.jpg" alt=""></div>
+                <!-- <div><img src="./products/image6.png" alt=""></div> -->
+                <div><img src="./assets/products/image2.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <!-- description card -->
+        <div class="row details">
+            
+            <!-- prodcuct name -->
+            <div class="productName">
+                <h1>Product : <span>Watch i534</span></h1>
+            </div>
+
+            <div class="productDetails">
+
+                <!-- description -->
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium debitis dolore ipsam, necessitatibus sed deleniti, accusantium, hic pariatur illum culpa nam in vel quia magnam velit dicta voluptate similique officiis.
+                </p>
+
+                <!-- stars -->
+                <div class="productRate">
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
                 </div>
 
-                
+            </div>
 
+            <div class="productMarket">
+
+                <!-- price -->
+                <div class="productPrice">
+                    <span>$</span>
+                    <span>450</span>
+                </div>
+
+                <!-- buy and save button -->
+                <div class="productBuy">
+                    <button>Comprar
+                        <i class="fa fas fa-shopping-cart"></i>
+                    </button>
+                    
+                    <!-- <button>Save
+                        <i class="fa fas fa-save"></i>
+                    </button> -->
+                </div>
             </div>
 
         </div>
