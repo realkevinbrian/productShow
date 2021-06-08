@@ -11,7 +11,7 @@
         border: 2px solid rgb(47, 189, 255);
         grid-template-columns: 1fr;
         border-radius: 10px;
-        border: 1px solid rgb(56, 56, 56);
+        /* border: 1px solid rgb(56, 56, 56); */
        
 
     
@@ -57,8 +57,8 @@ div.productImage{
     
 }
 .prevImage img{
-    width: 70%;
-    max-width: 90%;
+    width: auto;
+    max-width: 60%;
     
 }
 
@@ -80,10 +80,11 @@ div.details{
 }
 
 div.productName{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 div.productName span{
     color: rgb(2, 27, 54);
@@ -97,10 +98,9 @@ div.productDetails p{
     align-content: center;
     align-items: center;
     justify-content: center;
-    margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
 
 
 }
@@ -110,41 +110,45 @@ div.productMarket{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: 100%;
-    /* border: 2px solid;/\ */
     justify-content: center;
     align-content: center;
     justify-items: center;
+    background: rgb(17, 16, 16);
+    border-radius: 10px;
+
 }
 
 .productPrice{
-    /* border: 3px solid rgb(6, 144, 236); */
     width: 60%;
     height: 50px;
-    /* position: relative;
-    transform: translateY(-850px); */
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    /* background-color: rgb(1, 4, 12); */
     font-size: 1.1rem;
-    color: rgb(3, 3, 3);
+    color: rgb(0, 132, 255);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
+    
 }
 .productPrice>span:nth-last-child(1){
-    color: rgb(0, 153, 255);
+    color: rgb(255, 255, 255);
     margin: 5px;
     font-size: 1.4rem;
+
+
 
 }
 
 .productBuy{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
+
     
 }
 
@@ -153,12 +157,16 @@ div.productMarket{
     border: 2px solid rgb(0, 132, 255);
     border-radius: 10px;
     background-color: transparent;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     outline: none;
     transition: background-color;
     padding:10px;
     margin:0px;
+    height: 70%;
+    color: white;
+    justify-self: flex-end;
+        
 }
 
 .productBuy>button:nth-child(1):hover{
