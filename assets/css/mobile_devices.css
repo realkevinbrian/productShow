@@ -1,0 +1,189 @@
+/* mobile */
+@media only screen and (min-width : 80px) and (max-width:767px) {
+    
+
+    /* productcontainer */
+
+    .productcontainer{
+        grid-column: 1/-1;
+        /* height: 130%; */
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(47, 189, 255);
+        grid-template-columns: 1fr;
+        border-radius: 10px;
+        /* border: 1px solid rgb(56, 56, 56); */
+       
+
+    
+    }
+
+
+    /* product image container */
+div.productImage{
+    /* border: 2px dashed black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.image{
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 0px;
+}
+
+.image>img{
+    width: 90%;
+    
+}
+
+.prevImage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 0px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+
+    
+}
+.prevImage img{
+    width: auto;
+    max-width: 70%;
+    
+}
+
+.prevImage>div{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    /* border: 2px solid rgb(0, 204, 255); */
+    
+}
+
+.prevImage>div:hover{
+    background: rgb(2, 89, 116);
+}
+
+/* details section */
+div.details{
+    /* border: 2px dashed; */
+    
+}
+
+div.productName{
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+div.productName span{
+    color: rgb(2, 27, 54);
+    font-size: 1.2;
+    
+}
+
+div.productDetails p{
+    font-size: 0.9rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+
+}
+
+div.productMarket{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    background: rgb(17, 16, 16);
+    border-radius: 10px;
+
+}
+
+.productPrice{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    
+}
+.productPrice>span:nth-last-child(1){
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 1.4rem;
+
+
+
+}
+
+.productBuy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+
+.productBuy>button:nth-child(1){
+    width: 100%;
+    border: 2px solid rgb(0, 132, 255);
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    transition: background-color;
+    padding:10px;
+    margin:0px;
+    height: 70%;
+    color: white;
+    justify-self: flex-end;
+        
+}
+
+.productBuy>button:nth-child(1):hover{
+    background-color: rgb(2, 137, 226);
+    color: white;
+    
+}
+
+
+
+/* media query end tag */
+}
+
+
+
+

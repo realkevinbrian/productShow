@@ -1,0 +1,5 @@
+.prevImage>div{
+    background: #ffffff;
+    box-shadow:  5px 5px 7px #cfcfcf,
+                 -5px -5px 7px #ffffff;
+    }
