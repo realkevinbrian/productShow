@@ -58,7 +58,7 @@ div.productImage{
 }
 .prevImage img{
     width: auto;
-    max-width: 60%;
+    max-width: 70%;
     
 }
 
@@ -71,6 +71,10 @@ div.productImage{
     border-radius: 10px;
     /* border: 2px solid rgb(0, 204, 255); */
     
+}
+
+.prevImage>div:hover{
+    background: rgb(2, 89, 116);
 }
 
 /* details section */
