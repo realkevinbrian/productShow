@@ -1,0 +1,43 @@
+html,
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-size: 1.2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+/* product container */
+
+
+
+/* row */
+.row{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 20px;
+    padding: 5px;
+
+
+
+}
+
+/* grid columns container*/
+
+
+.grid-4{
+    grid-column: 1/4;
+}
